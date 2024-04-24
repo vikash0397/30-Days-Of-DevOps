@@ -3,6 +3,7 @@
 ![alt text](https://github.com/jaiswaladi246/30-Days-Of-DevOps/blob/main/Images/5.png?raw=true)
 
 Nexus Repository Manager: Nexus Repository Manager is a popular artifact repository management tool often used in DevOps environments. It serves as a central hub for storing and managing software artifacts such as binary files, libraries, and dependencies. The Nexus Repository Manager provides version control, access control, and distribution capabilities, making it easier for development and operations teams to collaborate on building and deploying software. By having a centralized repository, teams can ensure consistency, traceability, and efficient sharing of artifacts across the software development lifecycle.
+![Screenshot from 2024-04-25 01-56-42](https://github.com/vikash0397/30-Days-Of-DevOps/assets/133644410/7f0f50a6-812e-4116-ab68-b9abace4a9ce)
 
 #### Click Below to watch the video Tutorial
 [![Watch the video](https://img.youtube.com/vi/zH3cjXQmqJo/maxresdefault.jpg)](https://www.youtube.com/watch?v=zH3cjXQmqJo)
