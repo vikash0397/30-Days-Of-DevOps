@@ -66,3 +66,6 @@ Here are some common Maven commands:
 - `mvn site`: Generates project documentation and reports.
 - `mvn site-deploy`: Deploys the generated documentation to a remote web server.  
 - `mvn clean`: Executes the clean phase, deleting any previous build outputs. 
+
+Note :- To run the java based application we need to run the jar file as 
+          java -jar target/xyz.jar  (.jar file is the name of the jar file inside the target folder)
