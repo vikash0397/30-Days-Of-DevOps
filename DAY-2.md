@@ -28,7 +28,7 @@ Here's how Maven can be used in this scenario:
 
 Overall, Maven streamlines the build and deployment process, ensuring consistency and reproducibility across different environments. It saves developers' time by automating repetitive tasks and simplifying dependency management.
 
-## Maven Build Lifecycle
+## Maven Build Lifecycle :- How building a project work.
 
 Maven has three built-in build lifecycles: clean, default, and site.
 
@@ -37,12 +37,19 @@ Maven has three built-in build lifecycles: clean, default, and site.
 
 - **Default Lifecycle**:
   - `validate`: Validates the project structure and verifies if all necessary information is available.
+     (validate if all the neccessary files in your project is present or not mostly first thing it will search is that is there any pom        file is present or not)
   - `compile`: Compiles the project's source code.
+     Note:- whatever command in which order is written each command will run first the previous one
+     (search for syntax based error in your source code)
   - `test`: Runs unit tests against compiled source code.
+     (mvn test ----run the test cases. )
   - `package`: Packages the compiled code into a distributable format (e.g., JAR, WAR).
+     (package the application  with the dependencies and the output it generates it goes inside the Target folder, inside that target          folder among above files there will be one file which will be the artifacts in the formate of jarfile or war file -- which is the         main application , so if we want to run the application we need to run that jar file.)
   - `install`: Installs the package into the local repository for use as a dependency in other projects (`.m2`).
+     ( .m2 is the local repository inside which our artifacts will be installed)
   - `deploy`: Deploys the package to a remote repository for sharing with other developers or environments (Push to Nexus).
-
+     (push it in third party repository like nexus.)
+    
 - **Site Lifecycle**:
   - `site`: Generates project documentation and reports.
   - `site-deploy`: Deploys the generated documentation to a remote web server.
