@@ -68,4 +68,4 @@ Here are some common Maven commands:
 - `mvn clean`: Executes the clean phase, deleting any previous build outputs. 
 
 Note :- To run the java based application we need to run the jar file as 
-          java -jar target/xyz.jar  (.jar file is the name of the jar file inside the target folder)
+        ----  java -jar target/xyz.jar  ----(.jar file is the name of the jar file inside the target folder)
